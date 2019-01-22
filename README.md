@@ -1,2 +1,2 @@
-# natours
-Small front page to practice basic CSS
+# Natours
+Simple page to practice basic CSS
