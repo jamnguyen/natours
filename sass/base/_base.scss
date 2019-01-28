@@ -1,0 +1,21 @@
+* {
+  &::before, &::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  // Font could be inherited, then reset them in body instead of *
+  color: $color-grey-dark;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  // font-size: 1.6rem;
+  line-height: 1.7; // That means 1.7 time of default value
+  padding: 3rem;
+}
