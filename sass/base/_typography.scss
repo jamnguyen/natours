@@ -32,6 +32,7 @@
   text-transform: uppercase;
   transition: .2s ease-in-out;
   -webkit-background-clip: text;
+  background-clip: text;
 
   &:hover {
     text-shadow: 1rem 2rem 2rem rgba($color-black, .2);
